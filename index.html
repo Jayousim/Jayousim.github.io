@@ -22,7 +22,9 @@
   .tagline { margin: 0 0 24px; font-size: 22px; }
   p { color: var(--muted); }
   .stores { margin: 28px 0; display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
-  .stores span { padding: 10px 20px; border-radius: 999px; border: 1px solid #39407a; color: var(--ink); }
+  .stores span, .stores .cta { padding: 10px 20px; border-radius: 999px; border: 1px solid #39407a; color: var(--ink); }
+  .stores .cta { border: 0; color: var(--bg); font-weight: 600; text-decoration: none;
+                 background: linear-gradient(90deg, var(--cyan), #c9b6ff); }
   footer { margin-top: 40px; font-size: 15px; }
   a { color: var(--cyan); }
 </style>
@@ -36,7 +38,7 @@
      loop by loop, until it closes with a soft chime. 22 stages, 6 pen holes, 7 inks, Neon and Street styles,
      and no timers or scores.</p>
   <div class="stores">
-    <span>Free on the App Store</span>
+    <a class="cta" href="https://apps.apple.com/app/spiropop/id6829417917">Free on the App Store</a>
     <span>Google Play: coming soon</span>
   </div>
   <footer>
